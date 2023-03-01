@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta thhp-rquiv="x-UA-compatile" content="IE=edge,cheome=1">
+    <meta name="viewport" content="width=device-width, initial-scsle=1.0">
+
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="icon" href="app-image-5.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Tic Tac</title>
+    <script type="text/javascript"
+        src="https://codesandbox.io/public/sse-hooks/sse-hooks.f742b80f43c5a2e0e619b0d97b5886cd.js"></script>
+    <style>
+        undefined
+    </style>
+    <script type="text/javascript" src="https://codesandbox.io/static/js/banner.be879265d.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="true">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swa">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <p style="text-align: center;
+      color: rgb(243, 0, 0);
+      text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #610eb5,
+        0 0 82px #610eb5, 0px 0px 8px #610eb5, 0 0 10px #610eb5, 0 0 0px #610eb5;
+      font-size: 5rem;
+      
+      display: flex;
+      justify-content: center;
+      font-family: Georgia, " Times New Roman", Times, serif;">Hello <br> Friend Mahmoud</p>
+        <p style="text-align: center;
+      color: white;
+      text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #610eb5,
+        0 0 82px #610eb5, 0px 0px 8px #610eb5, 0 0 10px #610eb5, 0 0 0px #610eb5;
+      font-size: 5rem;
+      display: flex;
+      justify-content: center;
+      font-family: Georgia, " Times New Roman", Times, serif;"> are you ready ?</p>
+    </header>
+    <section class="game">
+        <div class="game-head">
+            <h2 class="neonText-2 turn "><span id="turn">Play!</span></h2>
+        </div>
+
+        <div class="main">
+            <div class="box" id="box1" onclick="game(this.id)"></div>
+            <div class="box" id="box2" onclick="game(this.id)"></div>
+            <div class="box" id="box3" onclick="game(this.id)"></div>
+            <div class="box" id="box4" onclick="game(this.id)"></div>
+            <div class="box" id="box5" onclick="game(this.id)"></div>
+            <div class="box" id="box6" onclick="game(this.id)"></div>
+            <div class="box" id="box7" onclick="game(this.id)"></div>
+            <div class="box" id="box8" onclick="game(this.id)"></div>
+            <div class="box" id="box9" onclick="game(this.id)"></div>
+        </div>
+        <div class="popup bounce-in-top">
+            <p><span>Oops!</span> No one won that game😝</p>
+            <button onclick="reloadPage()">Try Again!</button>
+        </div>
+        <br>
+        <footer class="footer">
+            <p class="foot-title" style="color: rgb(18, 133, 133);  font-size:20px">Developer <br> <span style="color: rgb(0, 119, 255);       font-size:25px;
+            ">Mahmoud Hamed</span></p>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100029752385150" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mahmoud.hamed.19/" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/+201287156529" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </footer>
+    </section>
+
+    <script src="login.js"></script>
+    <script src="Game.js"></script>
+</body>
+
+</html>
